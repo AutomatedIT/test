@@ -9,7 +9,7 @@ node() {
   deleteDir()
   stage('checkout') {
     git(
-        url: 'https://github.com/test1",
+        url: 'https://github.com/AutomatedIT/test.git',
         branch: master
         )
    }
